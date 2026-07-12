@@ -83,24 +83,21 @@
     font-family:'Noto Nastaliq Urdu', serif;
     font-weight:700;
     font-size:44px;
-    line-height:1.9;
+    line-height:2.1;
     color:var(--gold-deep);
     background:linear-gradient(180deg, #cf9f47, #8a6120);
     -webkit-background-clip:text;
     background-clip:text;
     -webkit-text-fill-color:transparent;
     padding:6px 20px 0;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    gap:10px;
     direction:rtl;
   }
   .heart-icon{
-    width:30px; height:30px;
-    flex-shrink:0;
-    display:inline-flex;
-    transform:translateY(4px);
+    display:inline-block;
+    width:0.55em; height:0.55em;
+    vertical-align:middle;
+    margin:0 0.12em;
+    transform:translateY(-0.08em);
   }
 
   .divider{
@@ -239,21 +236,17 @@
 <div class="card">
 
   <div class="hero-wrap">
-    <img class="hero-img" src="IMG_20260712_033439.jpg" alt="عکس عروس و داماد در مزرعه">
+    <img class="hero-img" src="IMG_20260712_033439.jpg.jpg" alt="عکس عروس و داماد در مزرعه">
     <div class="arc-mask"></div>
     <div class="arc-line"></div>
   </div>
 
   <div class="flourish">﴾ ⚜ ﴿</div>
 
-  <div class="names">
-    <span>فرشاد</span>
-    <svg class="heart-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4">
-      <path d="M12 21s-7.5-4.7-10-9.3C.3 8.3 2 4.5 5.6 4c2-.3 3.7.8 4.9 2.6C11.7 4.8 13.4 3.7 15.4 4c3.6.5 5.3 4.3 3.6 7.7C16.5 16.3 12 21 12 21z"/>
-      <path d="M12 8v6M9.5 11h5" stroke-width="1"/>
-    </svg>
-    <span>پریا</span>
-  </div>
+  <div class="names">فرشاد<svg class="heart-icon" viewBox="0 0 24 24">
+      <path d="M12 21s-7.5-4.7-10-9.3C.3 8.3 2 4.5 5.6 4c2-.3 3.7.8 4.9 2.6C11.7 4.8 13.4 3.7 15.4 4c3.6.5 5.3 4.3 3.6 7.7C16.5 16.3 12 21 12 21z" fill="#b3271e" stroke="#8a6120" stroke-width="0.6"/>
+      <path d="M12 8.2v6M9.3 11.2h5.4" stroke="#f3ead4" stroke-width="1.1" stroke-linecap="round"/>
+    </svg>پریا</div>
 
   <div class="divider"><span class="line"></span><span class="sym">✦</span><span class="line"></span></div>
 
